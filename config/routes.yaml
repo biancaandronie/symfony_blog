@@ -3,7 +3,7 @@
 #    controller: App\Controller\DefaultController::index
 
 hello_page:
-      path: /home
+      path: /
       controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
       defaults:
           templates: 'hello_page.html.twig'
